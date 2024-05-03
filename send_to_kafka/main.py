@@ -34,7 +34,7 @@ def main():
                 value=json.dumps(weather),
             )
             logging.info("Produced. Sleeping...")
-            time.sleep(10)
+            time.sleep(300)
 
 
 if __name__ == "__main__":
