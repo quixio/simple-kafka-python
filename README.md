@@ -2,7 +2,7 @@
 
 Supporting code for this video tutorial:
 
-[![YouTube Thumbnail](producer_thumbnail.jpg?raw=true)][youtube-producer]
+[![YouTube Thumbnail](producer_thumbnail.png?raw=true)][youtube-producer]
 
 # A Simple Producer
 
