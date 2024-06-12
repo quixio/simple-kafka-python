@@ -52,9 +52,8 @@ python3 main.py
 
 # Stream Processing to Google Spreadsheets
 
-[![YouTube Kafka To Google Video
-Thumbnail](kafka_to_google_thumbnail.jpg?raw=true)][youtube-kafka-to-google] There's
-a complete [walkthrough video here][youtube-kafka-to-google].
+[![YouTube Kafka To Google Video Thumbnail](kafka_to_google_thumbnail.jpg?raw=true)][youtube-kafka-to-google] 
+There's a complete [walkthrough video here][youtube-kafka-to-google].
 
 To run the code in this repo, you'll first need to  create a Google Developer
 client API key file, using the [Google Developer
