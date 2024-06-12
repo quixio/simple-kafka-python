@@ -1,0 +1,2 @@
+quixstreams >= 2.4
+pygsheets >= 2.0.6

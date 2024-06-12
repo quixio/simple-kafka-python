@@ -50,8 +50,31 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
+# Stream Processing to Google Spreadsheets
+
+[![YouTube Kafka To Google Video
+Thumbnail](kafka_to_google_thumbnail.jpg?raw=true)][youtube-kafka-to-google]There's
+a complete [walkthrough video here][youtube-kafka-to-google].
+
+To run the code in this repo, you'll first need to  create a Google Developer
+client API key file, using the [Google Developer
+Console][google-developer-console]. Copy that `client_secret.json` file it
+gives you into the `weather_to_google` directory. Then:
+
+```sh
+# Set up an environment.
+cd weather_to_google
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+
+# Run the stream processor.
+python3 main.py
+```
+
 [youtube-producer]: https://youtu.be/D2NYvGlbK0M
 [youtube-consumer]: https://youtu.be/eCsSAzTy5cE
 [youtube-processor]: https://youtu.be/5sqegy_EPa0
+[youtube-kafka-to-google]: https://youtu.be/Haeub0XvuBU
 [youtube-playlist]: https://www.youtube.com/playlist?list=PL5gMntduShmyJd2fsflN1jwLW9XtDMFAX
-
+[google-developer-console]: https://console.cloud.google.com/
