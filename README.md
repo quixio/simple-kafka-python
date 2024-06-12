@@ -74,6 +74,6 @@ python3 main.py
 [youtube-producer]: https://youtu.be/D2NYvGlbK0M
 [youtube-consumer]: https://youtu.be/eCsSAzTy5cE
 [youtube-processor]: https://youtu.be/5sqegy_EPa0
-[youtube-kafka-to-google]: https://youtu.be/Haeub0XvuBU
+[youtube-kafka-to-google]: https://youtu.be/UHuQndx83I8
 [youtube-playlist]: https://www.youtube.com/playlist?list=PL5gMntduShmyJd2fsflN1jwLW9XtDMFAX
 [google-developer-console]: https://console.cloud.google.com/
