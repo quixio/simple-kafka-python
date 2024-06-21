@@ -15,12 +15,12 @@ def main():
     output_topic = app.topic("weather_i18n")
 
     def i18n_weather(msg):
-        celcius = msg["current"]["temperature_2m"]
-        fahrenheit = (celcius * 9 / 5) + 32
-        kelvin = celcius + 273.15
+        celsius = msg["current"]["temperature_2m"]
+        fahrenheit = (celsius * 9 / 5) + 32
+        kelvin = celsius + 273.15
 
         new_msg = {
-            "celcius": celcius,
+            "celsius": celsius,
             "fahrenheit": round(fahrenheit, 2),
             "kelvin": round(kelvin, 2),
         }
