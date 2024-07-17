@@ -71,9 +71,27 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
+
+# Performant Python Producers
+
+[![YouTube Performant Python Producers Video Thumbnail](performance_thumbnail.jpg?raw=true)][youtube-performance] 
+There's a complete [walkthrough video here][youtube-performance].
+
+```sh
+# Set up an environment.
+cd github-firehose
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+
+# Run the stream processor.
+python3 main.py
+```
+
 [youtube-producer]: https://youtu.be/D2NYvGlbK0M
 [youtube-consumer]: https://youtu.be/eCsSAzTy5cE
 [youtube-processor]: https://youtu.be/5sqegy_EPa0
 [youtube-kafka-to-google]: https://youtu.be/UHuQndx83I8
+[youtube-performance]: https://youtu.be/mdhEXg5Pny8
 [youtube-playlist]: https://www.youtube.com/playlist?list=PL5gMntduShmyJd2fsflN1jwLW9XtDMFAX
 [google-developer-console]: https://console.cloud.google.com/
