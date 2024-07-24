@@ -1,4 +1,4 @@
-# Python and Kakfa with QuixStreams
+# Python and Kafka with Quix Streams
 
 Supporting code for our [step-by-step coding walkthroughs][youtube-playlist].
 
